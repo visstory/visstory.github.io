@@ -76,6 +76,9 @@ body {
     cursor: pointer;
 }
 
+.py-5 {
+ padding-top: 2rem!important;
+}
 
 a {
     border-bottom: 2px solid #041662;
