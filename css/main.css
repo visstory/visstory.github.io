@@ -76,8 +76,9 @@ body {
     cursor: pointer;
 }
 
-.py-5 {
- padding-top: 2rem!important;
+.navpadding {
+    padding-top: 2rem!important;
+    padding-bottom: 3rem!important;
 }
 
 a {
