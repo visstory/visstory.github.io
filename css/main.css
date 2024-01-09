@@ -21,6 +21,9 @@ body {
 
 .navbar.navbar-expand.navbar-top {
     background-image: url(../img/navbackground.png);
+    height: 146px;
+    background-repeat: repeat-x;
+    padding-bottom: 36px;
 }
 
 .navbar.navbar-expand.navbar-top .navbar-brand {
@@ -74,11 +77,6 @@ body {
     padding-bottom: .25em;
     text-decoration: none;
     cursor: pointer;
-}
-
-.navpadding {
-    padding-top: 3rem!important;
-    padding-bottom: 3rem!important;
 }
 
 a {
