@@ -23,7 +23,7 @@ body {
     background-image: url(../img/navbackground.png);
     height: 146px;
     background-repeat: repeat-x;
-    padding-bottom: 36px;
+    padding-bottom: 40px;
 }
 
 .navbar.navbar-expand.navbar-top .navbar-brand {
