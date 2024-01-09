@@ -20,7 +20,7 @@ body {
 }
 
 .navbar.navbar-expand.navbar-top {
-    background-color: #134C75;
+    background-image: url(../img/navbackground.png);
 }
 
 .navbar.navbar-expand.navbar-top .navbar-brand {
