@@ -99,6 +99,10 @@ a:hover {
     cursor: pointer;
 }
 
+.badge.badge-award {
+    background-color: #3183D4;
+}
+
 .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
