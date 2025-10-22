@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 1.1rem;
+}
+
+.container {
+    max-width: 960px;
+}
+
+
+.navbar-brand {
+    border-bottom: none;
+}
+
+.navbar.navbar-expand.navbar-top .navbar-brand .navbar-brand-subtitle {
+    text-transform: none;
+    font-size: 1.7rem;
+}
+
+.navbar.navbar-expand.navbar-top {
+    background-image: url(../img/navbackground.png);
+    height: 150px;
+    background-repeat: repeat-x;
+    padding-bottom: 40px;
+}
+
+.navbar.navbar-expand.navbar-top .navbar-brand {
+    font-size: 2.3rem;
+    font-family: 'Inter', sans-serif !important;
+    color: #F0F0F0;
+    white-space: wrap;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.navbar.navbar-expand.navbar-top .navbar-brand:hover {
+    background-image: none;
+    border: 0;
+    padding: 0;
+}
+
+.navbar-brand-decor-right,
+.navbar-brand-decor-left {
+    height: 4rem;
+    margin: auto 0;
+}
+
+.navbar-brand-decor-left {
+    padding-right: 4rem;
+    float: right;
+}
+
+.navbar-brand-decor-right {
+    padding-left: 4rem;
+    float: left;
+}
+
+.navbar.navbar-expand.navbar-top .navbar-nav a.nav-link {
+    border-bottom: 3px solid #7570b3;
+    /* color: #F0F0F0; */
+    color: rgb(23,30,49);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.6rem;
+    margin-left: 30px;
+}
+
+.navbar.navbar-expand.navbar-top .navbar-nav a.nav-link:hover {
+    background-position: 0 calc(100% - 1.5px);
+    border-bottom: none;
+    /* color: #F0F0F0; */
+    color: rgb(23,30,49);
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%237570B3' stroke-width='3' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-repeat: repeat-x;
+    background-size: auto 4px;
+    border-bottom: 0;
+    padding-bottom: .25em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a {
+    border-bottom: 2px solid #041662;
+    color: #212529;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    background-position: 0 calc(100% - 1.5px);
+    border-bottom: none;
+    color: #212529;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23041662' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-repeat: repeat-x;
+    background-size: auto 4px;
+    border-bottom: 0;
+    padding-bottom: .25em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.badge.badge-award {
+    background-color: #3183D4;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.embed-responsive.embed-responsive-16by9 {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+    /* This value is based on a 16:9 aspect ratio */
+}
+
+.embed-responsive.embed-responsive-16by9 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 760px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    .navbar.navbar-expand.navbar-top .navbar-brand {
+        font-size: 1.7rem;
+    }
+
+    .navbar.navbar-expand.navbar-top .navbar-brand .navbar-brand-subtitle {
+        font-size: 1.3rem;
+    }
+
+    .navbar.navbar-expand.navbar-top .navbar-nav a.nav-link {
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+
+    .navbar-brand-decor-right,
+    .navbar-brand-decor-left {
+        width: 0px;
+        padding: 0 0;
+    }
+
+    .py-5 {
+        padding-top: 2rem!important;
+        padding-bottom: 2rem!important;
+    }
+}
